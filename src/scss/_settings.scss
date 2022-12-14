@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+body{
+  font-family: LifeSavers;
+  font-weight: 500;
+  line-height: 2;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+li{
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+input {
+ border: none;
+}
+input[type="text"] {
+  color: #9a62d2;
+  background: transparent;
+}
+input[type="email"] {
+  color: #9a62d2;
+  background: transparent;
+}
+input::placeholder {
+  color: #9a62d2;
+}
+input[type="text"] {
+  color: #9a62d2;
+}
+input[type="text"]:focus {
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid #a672da;
+}
+input[type="email"]:focus {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #a672da;
+}
+select {
+  padding: 10px 0;
+  width: 234px;
+  border: none;
+  border-bottom: 2px solid #9a62d2;
+  background-color: transparent;
+  color: #693d8c;
+  // font-size: 1.8rem;
+}
+option::content {
+  color: #9a62d2;
+}
+select option {
+  color: #9a62d2;
+}
+
+select:focus {
+  outline: none;
+  color: #9a62d2;
+  border-bottom: 2px solid #9a62d2;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #693d8c;
+  // font-size: 24px;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #693d8c;
+  // font-size: 24px;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #693d8c;
+  // font-size: 24px;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #693d8c;
+  // font-size: 24px;
+} 
+
+::-webkit-scrollbar {
+  width: 10px; /* ширина для вертикального скролла */
+  height: 8px; /* высота для горизонтального скролла */
+  background-color: #efebeb;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #a672da;
+  border-radius: 9em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a672da;
+}
+
+/* Стрелки */
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+  // background: linear-gradient(300deg, #dfe3e4 40%, rgba(0, 0, 0, 0) 41%),
+  //   linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+  //   linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #a672da;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+  // background: linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+  //   linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+  //   linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #a672da;
+  border-radius: 12px;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
